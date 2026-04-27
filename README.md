@@ -1,11 +1,20 @@
-# BackendProgrammering
+# Backendprogrammering – ForkMasters API
 
-Spring Boot backend-applikasjon for håndtering av kunder, produkter og ordre.
+A RESTful backend application built with Java and Spring Boot, developed as part of the PGR209 course at Høyskolen Kristiania.
+
+## About
+ForkMasters is a backend API for managing customers, products, addresses, and orders. The application follows a layered architecture with clear separation between controller, service, and repository layers.
+
+## Features
+- Customer and address management
+- Product inventory with stock validation
+- Order placement with business rule enforcement
+- Global exception handling with appropriate HTTP status codes
+- Concurrency-safe stock updates
 
 ## Teknologi
 
-* Java 17
-* Spring Boot 3
+- Java & Spring Boot
 * Spring Data JPA
 * PostgreSQL
 * Flyway (database migrasjoner)
