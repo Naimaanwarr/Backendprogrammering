@@ -14,7 +14,7 @@ ForkMasters is a backend API for managing customers, products, addresses, and or
 
 ## Teknologi
 
-- Java & Spring Boot
+* Java & Spring Boot
 * Spring Data JPA
 * PostgreSQL
 * Flyway (database migrasjoner)
